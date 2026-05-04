@@ -3,61 +3,61 @@
 # This config file is meant for settings that affect your entire site, values
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve -l -H localhost`. If you change this file, please restart the 
+# `jekyll serve -l -H localhost`. If you change this file, please restart the
 # server process.
 
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Your Name / Site Title"
+title                    : "Punwath Prum"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : https://academicpages.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
-                                                           # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
+name                     : &name "Punwath Prum"
+description              : &description "Punwath Prum's academic portfolio. PhD Candidate in Geology and Environmental Science at the University of Pittsburgh, working on satellite remote sensing and machine learning for water quality."
+url                      : https://punwath.github.io # TODO: confirm this matches your actual GitHub username
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "punwath/punwath.github.io" # TODO: update to your_username/your_username.github.io
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
-  name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  avatar           : "profile.png" # TODO: drop a headshot named profile.png into /images/
+  name             : "Punwath Prum"
+  pronouns         : # example: "she/her"
+  bio              : "PhD Candidate, University of Pittsburgh | ppp13@pitt.edu"
+  location         : "Pittsburgh, PA"
+  employer         : "University of Pittsburgh"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "ppp13@pitt.edu"
 
   # Academic websites
   academia         : # URL
-  arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  arxiv            : # URL
+  googlescholar    : # TODO: paste your Google Scholar profile URL
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "https://orcid.org/yourorcidurl"
+  orcid            : # TODO: paste your ORCID URL (e.g., https://orcid.org/0000-0000-0000-0000)
   semantic         : # URL
   ssrn             : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : # URL
   researchgate     : # URL
   scopus           : # URL
   zotero           : # URL
 
 
   # Repositories and software development
-  bitbucket        : # Username - Update with your username on the site
+  bitbucket        : # Username
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
-  kaggle           : # Username  
-  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
+  github           : "punwath" # TODO: confirm your GitHub username
+  kaggle           : # Username
+  stackoverflow    : # User number or user number and name
+
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # Username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -66,7 +66,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : # TODO: add LinkedIn username if you have one
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -84,12 +84,14 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  books:
-    title: 'Books'
   manuscripts:
-    title: 'Journal Articles'    
+    title: 'Peer-Reviewed Publications'
+  in_review:
+    title: 'Manuscripts in Review'
+  in_preparation:
+    title: 'Manuscripts in Preparation'
   conferences:
-    title: 'Conference Papers'
+    title: 'Conference Presentations'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
@@ -302,7 +304,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: Etc/UTC # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/New_York # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
