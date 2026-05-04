@@ -8,36 +8,36 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "air" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
+site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Punwath Prum"
 title_separator          : "-"
 name                     : &name "Punwath Prum"
-description              : &description "Punwath Prum's academic portfolio. PhD Candidate in Geology and Environmental Science at the University of Pittsburgh, working on satellite remote sensing and machine learning for water quality."
-url                      : https://punwath.github.io # TODO: confirm this matches your actual GitHub username
+description              : &description "Punwath Prum — PhD Candidate at the University of Pittsburgh. Satellite remote sensing and machine learning for water quality monitoring across rivers, estuaries, and coastal waters. NASA FINESST Fellow. Research on suspended sediment, estuarine warming, Landsat harmonization."
+url                      : https://punwath.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "punwath/punwath.github.io" # TODO: update to your_username/your_username.github.io
+repository               : "punwath/punwath.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png" # TODO: drop a headshot named profile.png into /images/
+  avatar           : "profile.png"
   name             : "Punwath Prum"
   pronouns         : # example: "she/her"
   bio              : "PhD Candidate, University of Pittsburgh | ppp13@pitt.edu"
   location         : "Pittsburgh, PA"
   employer         : "University of Pittsburgh"
-  uri              : # URL
+  uri              : "https://www.geology.pitt.edu/people/punwath-prum"
   email            : "ppp13@pitt.edu"
 
   # Academic websites
   academia         : # URL
   arxiv            : # URL
-  googlescholar    : # TODO: paste your Google Scholar profile URL
+  googlescholar    : "https://scholar.google.com/citations?hl=en&user=h0Q203sAAAAJ"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : # TODO: paste your ORCID URL (e.g., https://orcid.org/0000-0000-0000-0000)
+  orcid            : "https://orcid.org/0009-0009-7085-7695"
   semantic         : # URL
   ssrn             : # URL
   pubmed           : # URL
@@ -50,7 +50,7 @@ author:
   bitbucket        : # Username
   codepen          : # Username
   dribbble         : # Username
-  github           : "punwath" # TODO: confirm your GitHub username
+  github           : "punwath"
   kaggle           : # Username
   stackoverflow    : # User number or user number and name
 
