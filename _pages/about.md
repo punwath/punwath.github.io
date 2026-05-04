@@ -31,6 +31,43 @@ table td {
   color: inherit !important;
   font-weight: bold;
 }
+
+  /* Hide the theme toggle button */
+.theme-toggle,
+.theme-switch,
+.palette-toggle,
+.color-scheme-toggle,
+button[aria-label*="theme" i],
+button[aria-label*="palette" i],
+button[title*="theme" i],
+[id*="theme-toggle"],
+[class*="theme-switch"] {
+  display: none !important;
+}
+
+/* Force light mode regardless of toggle or system preference */
+:root,
+:root[data-theme],
+html[data-theme="dark"],
+body[data-theme="dark"],
+body.dark-theme {
+  --global-bg-color: #ffffff !important;
+  --global-text-color: #3f3f3f !important;
+  --global-base-color: #555 !important;
+  --global-border-color: #f2f3f3 !important;
+  --global-text-color-light: #8e8e8e !important;
+  --global-link-color: #2f7f93 !important;
+  --global-masthead-link-color: #3f3f3f !important;
+  background-color: #ffffff !important;
+  color: #3f3f3f !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --global-bg-color: #ffffff !important;
+    --global-text-color: #3f3f3f !important;
+  }
+}
 </style>
 
 I am a Ph.D. candidate in Geology and Environmental Science at the University of Pittsburgh, advised by Dr. [John Gardner](https://emes.unc.edu/people-indiv/john-gardner/). My research focuses on satellite remote sensing and machine learning for monitoring water quality across rivers, estuaries, and coastal waters. I work primarily with the multi-decadal Landsat archive (TM, ETM+, OLI, OLI-2) to track suspended sediment dynamics, surface water temperature, and other indicators of environmental change at global scales.
