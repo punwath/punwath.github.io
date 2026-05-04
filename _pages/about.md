@@ -72,7 +72,7 @@ body.dark-theme {
 
 I am a Ph.D. candidate in Geology and Environmental Science at the University of Pittsburgh, advised by Dr. [John Gardner](https://emes.unc.edu/people-indiv/john-gardner/). My research focuses on satellite remote sensing and machine learning for monitoring water quality across rivers, estuaries, and coastal waters. I work primarily with the multi-decadal Landsat archive (TM, ETM+, OLI, OLI-2) to track suspended sediment dynamics, surface water temperature, and other indicators of environmental change at global scales.
 
-I am a NASA Future Investigator (FINESST) fellow. My doctoral work is supported by NASA grants on hosted analytic frameworks for global river water quantity and quality (#AIST-21-0037) and on satellite-based sediment regimes (#80NSSC21K0921). My first-author research includes a global analysis of estuarine warming across 1,060 estuaries, published in *Limnology & Oceanography Letters* and recognized with an Early Career Publication Honor.
+I am a NASA Future Investigator (FINESST) fellow and Ocean Optics Class alumni. My first-author research includes a global analysis of estuarine warming across 1,060 estuaries, published in *Limnology & Oceanography Letters* and recognized with an Early Career Publication Honor.
 
 Before my PhD, I completed a Professional Master of Science at the University of Wisconsin–Madison, with a major in Environmental Observation and Informatics. Prior to graduate school, I spent five years working in GIS and data research in Cambodia, supporting community forestry and conservation stakeholders, for which I received a Civil Society Leadership Award from the Open Society Foundation.
 
